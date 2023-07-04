@@ -1,15 +1,15 @@
 <html >
 <head>
-  <title>Predict the Weight</title>  
+  <title>Search laws</title>  
 </head>
 
 <body>
  <div>
-	<h1>Predict Weight</h1>
+	<h1>Generate response</h1>
 
-    <form action="{{ url_for('getprediction')}}"method="post">
-    	<input type="text" name="height" placeholder="Height" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">getprediction</button>
+    <form action="{{ url_for('generateResponse')}}"method="post">
+    	<input type="text" name="searchStr" placeholder="Search" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Search</button>
     </form>
 
    <br>
